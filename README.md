@@ -53,7 +53,7 @@ These parameters can be tuned within the provided Jupyter notebook (`finalopt.ip
   - JuMP
   - Gurobi
 - **Gurobi License**: A valid Gurobi license is required to run the optimization. You can obtain a free academic license [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
-- **Input Directory**: Ensure you have a directory containing the historical data in CSV format. An example CSV file for the year 2004 is provided.
+- **Input Directory**: Ensure you have a directory containing the historical data in CSV format. Example CSV files for the year 2001-2020 are provided.
 
 ## Input Format
 
@@ -100,10 +100,10 @@ DateTime,Wind,Solar,ElectricityHome,ElectricityIndustry,GasIndustry
 
 ## Example
 
-An example CSV profile for the year 2004 is provided (`2004_hourly.csv`). This file contains hourly data for wind, solar, and energy demands.
+Example CSV profiles are provided (`data_yearly`). These files contain hourly data for wind, solar, and energy demands.
 
 ## Output
 
-The notebook will output the optimized capacity requirements for each component of the integrated energy system, as well as the optimal injection of electricity into the grid to meet demand.
+The notebook will output the optimized capacity requirements for each component of the integrated energy system, as well as the optimal operational network flow.
 
 ---
